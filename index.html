@@ -762,10 +762,10 @@
         <p>All outputs are within physiologically safe ranges. No needles, no drugs, no thermal damage — safe for daily use with no reported adverse effects.</p>
       </div>
       <div class="feature-card smart reveal reveal-delay-3">
-        <div class="feature-icon"><i class="fa-solid fa-sliders"></i></div>
+        <!-- <div class="feature-icon"><i class="fa-solid fa-sliders"></i></div>
         <h4>Adjustable Control</h4>
         <p>Integrated potentiometer allows precise current regulation, enabling customization of therapy intensity for different patient needs and tissue states.</p>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
@@ -861,7 +861,7 @@
               <div class="diag-flow">
                 <div class="diag-box">6V Supply</div>
                 <div class="diag-arrow">→</div>
-                <div class="diag-box active">Potentiometer</div>
+                <div class="diag-box active">100K Resistors</div>
               </div>
               <div style="margin:8px 0;color:rgba(255,255,255,0.2);padding-left:48px">↓</div>
               <div class="diag-flow">
@@ -900,11 +900,11 @@
           <tr class="spec-item"><span class="spec-key"><i class="fa-solid fa-bolt"></i>Power Supply</span><span class="spec-val">6V Battery</span></tr>
           <tr class="spec-item"><span class="spec-key"><i class="fa-solid fa-sun"></i>LED Wavelength</span><span class="spec-val">660 nm (Red)</span></tr>
           <tr class="spec-item"><span class="spec-key"><i class="fa-solid fa-wave-square"></i>Current Output</span><span class="spec-val">&lt; 1 mA</span></tr>
-          <tr class="spec-item"><span class="spec-key"><i class="fa-solid fa-microchip"></i>LED Array</span><span class="spec-val">4 × Red LEDs</span></tr>
-          <tr class="spec-item"><span class="spec-key"><i class="fa-solid fa-sliders"></i>Current Control</span><span class="spec-val">Potentiometer</span></tr>
+          <tr class="spec-item"><span class="spec-key"><i class="fa-solid fa-microchip"></i>LED Array</span><span class="spec-val">6 × Red LEDs</span></tr>
+          <!-- <tr class="spec-item"><span class="spec-key"><i class="fa-solid fa-sliders"></i>Current Control</span><span class="spec-val">Potentiometer</span></tr> -->
           <tr class="spec-item"><span class="spec-key"><i class="fa-solid fa-plug"></i>Electrodes</span><span class="spec-val">Surface Conductive Pads</span></tr>
           <tr class="spec-item"><span class="spec-key"><i class="fa-solid fa-shield"></i>Safety Limiter</span><span class="spec-val">Fixed Resistor Array</span></tr>
-          <tr class="spec-item"><span class="spec-key"><i class="fa-solid fa-thermometer-half"></i>Operating Temp</span><span class="spec-val">Ambient (15–35°C)</span></tr>
+          <!-- <tr class="spec-item"><span class="spec-key"><i class="fa-solid fa-thermometer-half"></i>Operating Temp</span><span class="spec-val">Ambient (15–35°C)</span></tr> -->
           <tr class="spec-item"><span class="spec-key"><i class="fa-solid fa-ruler"></i>Form Factor</span><span class="spec-val">Compact Wearable Pad</span></tr>
         </ul>
       </div>
@@ -1164,7 +1164,7 @@
           </div>
         </div>
         <p><strong>Principle:</strong> Microcurrent mirrors the body's own endogenous bioelectric signals (typically 10–600 µA), which are involved in coordinating natural tissue repair cascades.</p>
-        <p><strong>Control:</strong> A potentiometer allows continuous adjustment of current output. A fixed resistor network ensures current cannot exceed safe thresholds regardless of potentiometer setting.</p>
+        <p><strong>Control:</strong> A fixed resistor network ensures current cannot exceed safe thresholds.</p>
         <p><strong>Electrode placement:</strong> Conductive pads placed proximal and distal to the treatment zone create a complete circuit through the target tissue with uniform current distribution.</p>
       `
     }
